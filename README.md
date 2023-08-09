@@ -1,2 +1,6 @@
-# CRUD
-Crud creado con html, js y css
+Como se menciono anteriormente, contiene un html muy sencillo, puesto a que toda la funcionalidad está en el js, el css no es nada del otro mundo, igualmente es sencillo y lo más importante está en el js el cual contiene todas las herramientas para que el crud pueda funcionar.
+En este crud puedes hacer una lista de las cosas que quieres hacer, realmente funciona para cualquier cosa que quieras anotar, no tiene un rol definido, pero si te ayudará a poder tener varias cosas escritas las cuales puedes ir eliminando, no hay un limite para anotar y que se vean reflejadas.
+Luego de agregar algo puedes editarlo, te saldrá un panel donde puedes hacer la corrección o editar lo que escribiste anteriormente.
+También puedes eliminarlo, ya sea porque realizaste lo que habias escrito, o por si te equivocaste sobre lo que querias escribir, pero como ha sido mencionado antes, se puede editar sin necesidad de borrar lo escrito posteriormente. 
+El estilo es muy sencillo puesto que el enfoque va más al js el cual contiene comentarios en cada sección, pero que sea sencillo tambien ayuda a que el enfoque vaya en lo que se desea hacer, que seria agregar una tarea, eliminarla y/o editarla. 
+//Eso sería todo, gracias por leer. 
