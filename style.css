@@ -1,13 +1,49 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el formulario */
+#item-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#item {
+    flex: 1;
+    padding: 5px;
+}
+
+/* Estilos para la lista */
+#item-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 5px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffefe;
 }
 
 header {
-    background-color: #007bff;
-    color: white;
+    background-color: #71eaac;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 1rem;
 }
@@ -16,8 +52,8 @@ header {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(244, 244, 244);
+    box-shadow: 0 2px 4px rgb(164, 163, 163);
     border-radius: 4px;
 }
 
@@ -29,13 +65,13 @@ header {
 #item {
     flex: 1;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #434242;
     border-radius: 4px;
 }
 
 #item-form button {
-    background-color: #007bff;
-    color: white;
+    background-color: #4eabe5;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 8px 16px;
     border-radius: 4px;
@@ -52,15 +88,15 @@ li {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #8a8686;
     margin-bottom: 10px;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgb(125, 124, 124);
 }
 
 .delete-button {
     background-color: #dc3545;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 6px 10px;
     border-radius: 4px;
@@ -70,5 +106,5 @@ li {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #f5f5f5;
+    background-color: #70e8a4;
 }
